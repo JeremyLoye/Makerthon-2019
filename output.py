@@ -1,5 +1,6 @@
 from pythonosc import dispatcher
 from pythonosc import osc_server
+from subprocess import call
 
 PORT = 12000
 MOVEMENT = ["left", "right", "up", "down"]
@@ -34,6 +35,7 @@ def handleCommand(movementList):
         return movementList
     else:
         print(gestures[movementList[0]][movementList[1]])
+        call(["espeak ", gestures[movementList[0]][movementList[1]], " 2>/dev/null"], shell=True)
         return []   
 
 read_file()
