@@ -1,0 +1,13 @@
+*Start input and output on launch*
+*Switch on bluetooth*
+*Watch for input*
+*Turn on vncserver*
+*Turn on Wekinator Project*
+*Record/Train/Run Wekinator Project*
+
+On first launch:
+Connect to monitor and connect to wifi & bluetooth
+
+Subsequent launch:
+Phone connect to device
+Instructions on screen
